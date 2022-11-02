@@ -36,9 +36,9 @@ class Database(object):
     SESSION2 = os.environ.get("SESSION2", None)
     DB_URI = os.environ.get("DATABASE_URL", None)
     BOT_TOKEN = os.environ.get("BOT_TOKEN", None)
-    PyroSESSION = os.environ.get("PyroSESSION", None)
+    PYROGRAM_SESSION = os.environ.get("PYROGRAM_SESSION", None)
     MONGO_DB = Var.MONGO_URI
-    PyroSESSION2 = os.environ.get("PyroSESSION2", None)
-    PyroSESSION3 = os.environ.get("PyroSESSION3", None)
-    PyroSESSION4 = os.environ.get("PyroSESSION4", None)
+    PYROGRAM_SESSION2 = os.environ.get("PYROGRAM_SESSION2", None)
+    PYROGRAM_SESSION3 = os.environ.get("PYROGRAM_SESSION3", None)
+    PYROGRAM_SESSION4 = os.environ.get("PYROGRAM_SESSION4", None)
     DB_URIl = os.environ.get("DATABASES_URL", "mongodb+srv://petercord:b38DJZL3X6zhnHJ0@cluster0.e9xau.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")

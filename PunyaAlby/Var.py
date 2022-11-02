@@ -108,10 +108,9 @@ class Osdb(object):
 import os
 from typing import Set
 
-from PunyaAlby._database import *
+from PunyaAlby._database.url_database import *
 
-DB = DatabaseCute()
-SqL = DB
+SqL = DatabaseCute()
 from distutils.util import strtobool
 
 import heroku3

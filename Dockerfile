@@ -1,6 +1,6 @@
 FROM pandauserbotfile/pandauserbot:python202
 
-RUN git clone -b main https://github.com/PunyaAlby/pyroline /home/albypyrobot/ \
+RUN git clone -b main https://github.com/arsyabot/pyroline /home/albypyrobot/ \
     && chmod 777 /home/albypyrobot \
     && mkdir /home/albypyrobot/bin/
 

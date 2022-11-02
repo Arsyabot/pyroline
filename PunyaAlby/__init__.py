@@ -12,7 +12,7 @@ import heroku3
 from redis import StrictRedis
 
 from PunyaAlby._database import *
-from PunyaAlby.sql_helper import *
+from PunyaAlby.sql_helper.globals import *
 from PunyaAlby.Var import *
 
 DB = DatabaseCute()

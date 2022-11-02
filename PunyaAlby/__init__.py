@@ -11,9 +11,9 @@ import sys
 import heroku3
 from redis import StrictRedis
 
-from ._database.url_database import DatabaseCute
-from .sql_helper.globals import addgvar, delgvar, gvarstatus
-from .Var import *
+from PunyaAlby._database.url_database import DatabaseCute
+from PunyaAlby.sql_helper.globals import addgvar, delgvar, gvarstatus
+from PunyaAlby.Var import *
 
 DB = DatabaseCute()
 SqL = DB
@@ -22,9 +22,9 @@ import time
 
 import ublackdev
 
-from ._misc.client import dual_duall
-from .Session import *
-from .versions import __author__, __copyright__, __license__, __version__
+from PunyaAlby._misc.client import dual_duall
+from PunyaAlby.Session import *
+from PunyaAlby.versions import __author__, __copyright__, __license__, __version__
 
 DEVLIST = ublackdev.plist
 DEVS = DEVLIST

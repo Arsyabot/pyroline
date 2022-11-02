@@ -67,7 +67,6 @@ if BOT_MODE:
     ALBYBot = tgbot
 
 
-bot = ALBYBot
 ALBYub = ALBYBot
 botvc = ALBYBot
 Stark = ALBYBot

@@ -108,7 +108,7 @@ class Osdb(object):
 import os
 from typing import Set
 
-from ._database import DatabaseCute
+from PunyaAlby._database import *
 
 SqL = DatabaseCute()
 from distutils.util import strtobool

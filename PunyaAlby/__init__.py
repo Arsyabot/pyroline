@@ -47,31 +47,6 @@ TG_BOT_USERNAME = os.environ.get("TG_BOT_USERNAME", None)
 LOG_CHANNEL = int(os.environ.get("PRIVATE_GROUP_BOT_API_ID") or 0)
 
 
-"""
-if not BOT_TOKEN:
-    from .helpers.functions.auto import autobot
-    if ALBYBot:
-        ALBYBot.loop.run_until_complete(autobot())
-else:
-    BOT_TOKEN = None
-    if not SqL.getdb("BOT_TOKEN") and BOT_TOKEN:
-        SqL.setdb("BOT_TOKEN", BOT_TOKEN)
-    if not SqL.getdb("BOT_TOKEN"):
-        LOGS.info('"BOT_TOKEN" not Found! Please add it, in order to use "MODE BoT"')
-        import sys
-        sys_exit()
-"""
-
-if BOT_MODE:
-    tgbot = tgbot
-    ALBYBot = tgbot
-
-
-ALBYub = ALBYBot
-botvc = ALBYBot
-Stark = ALBYBot
-petercordALBY_bot = ALBYub
-
 
 def dual_mode():
     try:

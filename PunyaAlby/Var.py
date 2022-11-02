@@ -110,7 +110,8 @@ from typing import Set
 
 from PunyaAlby._database import *
 
-SqL = DatabaseCute()
+DB = DatabaseCute()
+SqL = DB
 from distutils.util import strtobool
 
 import heroku3

@@ -13,7 +13,7 @@ from .classbot import Pyrobot
 loop = None
 
 
-if Database.PyroSESSION:
+if Database.PYROGRAM_SESSION:
     pyrobot = Client(
         Database.PyroSESSION,
         api_id=Database.APP_ID,
@@ -22,7 +22,7 @@ if Database.PyroSESSION:
     )
 else:
     pyrobot = None
-if Database.PyroSESSION2:
+if Database.PYROGRAM_SESSION2:
     pyrobot2 = Client(
         Database.PyroSESSION2,
         api_id=Database.APP_ID,
@@ -31,7 +31,7 @@ if Database.PyroSESSION2:
     )
 else:
     pyrobot2 = None
-if Database.PyroSESSION3:
+if Database.PYROGRAM_SESSION3:
     pyrobot3 = Client(
         Database.PyroSESSION3,
         api_id=Database.APP_ID,
@@ -40,7 +40,7 @@ if Database.PyroSESSION3:
     )
 else:
     pyrobot3 = None
-if Database.PyroSESSION4:
+if Database.PYROGRAM_SESSION4:
     pyrobot4 = Client(
         Database.PyroSESSION4,
         api_id=Database.APP_ID,

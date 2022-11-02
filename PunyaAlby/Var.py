@@ -252,9 +252,6 @@ class Config(object):
     ALLOW_NSFW = os.environ.get("ALLOW_NSFW", "False")
     MAX_MESSAGE_SIZE_LIMIT = 4095
     LOAD = []
-    ANTI_FLOOD_WARN_MODE = ChatBannedRights(
-        until_date=None, view_messages=None, send_messages=True
-    )
     CHROME_BIN = os.environ.get("CHROME_BIN", "/app/.apt/usr/bin/google-chrome")
     CHROME_DRIVER = os.environ.get(
         "CHROME_DRIVER", "/app/.chromedriver/bin/chromedriver"

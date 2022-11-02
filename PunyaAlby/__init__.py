@@ -11,7 +11,7 @@ import sys
 import heroku3
 from redis import StrictRedis
 
-from PunyaAlby._database.url_database import DatabaseCute
+from PunyaAlby._database import *
 from PunyaAlby.sql_helper.globals import addgvar, delgvar, gvarstatus
 from PunyaAlby.Var import *
 

@@ -1,7 +1,7 @@
 import logging
 from logging import getLogger
 
-import pyrogram as pandapyro
+import pyrogram as albypyro
 
 from .._func.startup import load_modulesPyro, plugin_collecter
 from .client import *
@@ -75,4 +75,4 @@ def Pyrogram():
             PRIVATE, MSG_ON.format(pyrobot4.me.username, pyrover, cmdhr)
         )
     LOGS.info(f"꧁༺ ALBY-PYROBOT ༻꧂\n⚙️ PyroVersion:{pyrover} [TELAH DIAKTIFKAN]")
-    pandapyro.idle()
+    albypyro.idle()

@@ -12,7 +12,7 @@ import heroku3
 from redis import StrictRedis
 
 from PunyaAlby._database import *
-from PunyaAlby.sql_helper.globals import addgvar, delgvar, gvarstatus
+from PunyaAlby.sql_helper import *
 from PunyaAlby.Var import *
 
 DB = DatabaseCute()
@@ -22,7 +22,6 @@ import time
 
 import ublackdev
 
-from PunyaAlby._misc.client import dual_duall
 from PunyaAlby.Session import *
 from PunyaAlby.versions import __author__, __copyright__, __license__, __version__
 

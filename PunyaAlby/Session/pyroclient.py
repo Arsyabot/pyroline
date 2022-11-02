@@ -15,7 +15,7 @@ loop = None
 
 if Database.PYROGRAM_SESSION:
     pyrobot = Client(
-        Database.PyroSESSION,
+        Database.PYROGRAM_SESSION,
         api_id=Database.APP_ID,
         api_hash=Database.API_HASH,
         sleep_threshold=180,
@@ -24,7 +24,7 @@ else:
     pyrobot = None
 if Database.PYROGRAM_SESSION2:
     pyrobot2 = Client(
-        Database.PyroSESSION2,
+        Database.PYROGRAM_SESSION2,
         api_id=Database.APP_ID,
         api_hash=Database.API_HASH,
         sleep_threshold=180,
@@ -33,7 +33,7 @@ else:
     pyrobot2 = None
 if Database.PYROGRAM_SESSION3:
     pyrobot3 = Client(
-        Database.PyroSESSION3,
+        Database.PYROGRAM_SESSION3,
         api_id=Database.APP_ID,
         api_hash=Database.API_HASH,
         sleep_threshold=180,
@@ -42,7 +42,7 @@ else:
     pyrobot3 = None
 if Database.PYROGRAM_SESSION4:
     pyrobot4 = Client(
-        Database.PyroSESSION4,
+        Database.PYROGRAM_SESSION4,
         api_id=Database.APP_ID,
         api_hash=Database.API_HASH,
         sleep_threshold=180,

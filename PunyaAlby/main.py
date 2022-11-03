@@ -6,7 +6,6 @@
 
 import sys
 
-import PunyaAlby
 from PunyaAlby import LOGS
 
 from .Session.multisession_ import Pyrogram

@@ -1,4 +1,4 @@
-from PunyaAlby._database.url_database import *
+from .._database.url_database import *
 SqL = DatabaseCute()
 
 

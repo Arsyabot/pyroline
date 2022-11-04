@@ -20,7 +20,7 @@ def start():
 
 
 if __name__ == "__main__":
-    if Database.PyroSESSION:
+    if Database.PYROGRAM_SESSION:
         Pyrogram()
         start()
 
